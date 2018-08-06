@@ -43,7 +43,7 @@ public class ProductOperation {
             return "Każdy producent występuje raz.";
     }
 
-    public static int getMaxIndex(int[] table) {
+    private static int getMaxIndex(int[] table) {
         int maxIndex = 0;
         for (int i = 0; i < table.length; i++) {
             if (table[i] > maxIndex) {
